@@ -10,7 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Image\" />
+    <None Remove="Image\edit-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\edit-icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

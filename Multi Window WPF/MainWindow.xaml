@@ -18,14 +18,14 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label Content="Name:" FontSize="16" HorizontalAlignment="Center"/>
-            <Label Content="" FontSize="16" HorizontalAlignment="Center"/>
+            <Label x:Name="lblName" Content="" FontSize="16" HorizontalAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label Content="Age:" FontSize="16" HorizontalAlignment="Center"/>
-            <Label Content="" FontSize="16" HorizontalAlignment="Center"/>
+            <Label x:Name="lblAge" Content="" FontSize="16" HorizontalAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <CheckBox Content="Adult" FontSize="16" />
+            <CheckBox x:Name="chkAdult" Content="Adult" FontSize="16" IsEnabled="False" />
         </StackPanel>
         <Button Width="150" Height="50" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10" FontWeight="Bold" FontSize="20" IsDefault="True" Click="Button_Click">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
